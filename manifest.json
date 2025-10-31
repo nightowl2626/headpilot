@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "HeadPilot",
+  "version": "1.0",
+  "description": "Hands-free browser control using face tracking and gestures",
+  "icons": {
+    "16": "headpilot_logo.png",
+    "48": "headpilot_logo.png",
+    "128": "headpilot_logo.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "offscreen"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "trial_tokens": [ 
+    "your_trial_token_here"
+    ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "web_accessible_resources": [{
+    "resources": ["wasm/*", "vision_bundle.mjs", "gesture-config.js", "config.js", "content-styles.css", "icons.js"],
+    "matches": ["<all_urls>"]
+  }]
+}
