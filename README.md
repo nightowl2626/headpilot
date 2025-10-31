@@ -163,12 +163,12 @@ headpilot-extension/
    - Green indicator "Face Control Active" appears on web pages
 
 4. **Activate Gesture Mode**
-   - Raise your eyebrows to activate gesture recognition
-   - Visual feedback will indicate "Gesture Mode Active" (lasts 15 seconds)
+   - Double blink to activate gesture recognition
+   - Visual feedback will indicate "Gesture Mode Active" (lasts 5 seconds)
    - Perform gestures to control the browser
 
 5. **Use Text Field Mode**
-   - Click "Enable Text Field Mode" in the tracker window
+   - Raise your eyebrows to "Enable Text Field Mode"
    - All text fields on the page will be highlighted with numbers
    - Tilt head left/right to navigate between fields
    - Hold position for 2 seconds to select a field
@@ -179,7 +179,8 @@ headpilot-extension/
 
 | Gesture | Action | Hold Time |
 |---------|--------|-----------|
-| Eyebrow raise | Activate gesture mode | - |
+| Double blink | Activate gesture mode | - |
+| Eyebrow raise | Activate writing mode | - |
 | Tilt left/right | Navigate elements/fields | - |
 | Look up/down | Scroll page | - |
 | Sharp turn left | Browser back | - |
