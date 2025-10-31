@@ -20,13 +20,15 @@ HeadPilot is a Chrome browser extension that enables completely hands-free web b
 
 **2. Hands-Free Navigation**
 - **Head Gestures:**
-  - Tilt left/right: Navigate between UI elements
+  - Double blink: activate gesture mode
+  - Tilt left/right: Navigate between tabs
   - Sharp turn left/right: Browser back/forward navigation
   - Look up/down: Scroll pages
   - Jaw open (hold): Click elements
   - Smile (hold): Open new tab or confirm actions
-  - Wink (hold): Close tab or refresh page
-  - Eyebrow raise: Activate gesture mode
+  - Wink Right (hold): Close tab
+  - Wink Left (hold): Refresh page
+  - Eyebrow raise: Activate writing mode
 
 - **Eye Gaze Cursor:**
   - Virtual cursor controlled by eye gaze position
