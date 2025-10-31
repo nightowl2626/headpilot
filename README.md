@@ -26,8 +26,8 @@ HeadPilot is a Chrome browser extension that enables completely hands-free web b
   - Look up/down: Scroll pages
   - Jaw open (hold): Click elements
   - Smile (hold): Open new tab or confirm actions
-  - Wink Right (hold): Close tab
-  - Wink Left (hold): Refresh page
+  - Wink Left (hold): Close tab
+  - Wink Right (hold): Refresh page
   - Eyebrow raise: Activate writing mode
 
 - **Eye Gaze Cursor:**
